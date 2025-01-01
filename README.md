@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Haskell: stack overflow errors caused by non-tail recursive functions.  The `bug.hs` file contains a recursive factorial function that is not tail-recursive. This leads to a stack overflow for larger inputs. The `bugSolution.hs` provides a corrected, tail-recursive version that avoids this problem. 
